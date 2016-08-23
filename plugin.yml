@@ -1,0 +1,46 @@
+name: ShopTP
+main: no.nytt1.shopteleport.ShopTP
+version: 0.9.0-SNAPSHOT
+authors: [BoXHocK]
+description: Teleports you to your or someone's shop!
+
+commands:
+   setshop:
+      description: Set your shop's warp position.
+      usage: /<command>
+   delshop:
+      description: Deletes your shop.
+      usage: /<command>
+   shop:
+      description: Teleports you to your/someone's shop.
+      usage: /<command> <player>
+      
+permissions:
+    shopteleport.*:
+        description: Basic ShopTeleport commands.
+        default: op
+        children:
+            shopteleport.setshop: true
+            shopteleport.shop: true
+            shopteleport.delshop: true
+            shopteleport.delshop-others: true
+            shopteleport.admin: true
+            shopteleport.nolimit: true
+    shopteleport.setshop:
+        description: Set your shops warp position.
+        default: false
+    shopteleport.shop:
+        description: Teleports you to your/someone's shop.
+        default: true
+    shopteleport.delshop:
+        description: Deletes your shop.
+        default: false
+    shopteleport.delshop-others:
+        description: Deletes others shop.
+        default: false
+    shopteleport.admin:
+        description: Admin Commands.
+        default: op
+    shopteleport.nolimit:
+        description: Gives the user no limits.
+        default: false

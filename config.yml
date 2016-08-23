@@ -1,0 +1,22 @@
+# ---------------------------------------------
+# shop-time is in seconds // 1209600 = 2 weeks
+# ---------------------------------------------
+prefix: "&3[Shop]"
+config:
+  msg-length: 50
+  shop-time: 1209600
+messages:
+  location-not-safe: "&cThat location isn't safe! Please place your shop somewhere else."
+  no-permission: "&cYou are not allowed to use that command!"
+  tped-to-your-shop: "&aTeleported to your shop!"
+  no-shop: "&cThis shop does not exist!"
+  no-tp: "&cTeleporting would damage you, so we stopped you!"
+  tped: "&aTeleported to &6{shop}'s &ashop!"
+  doesnt-exsist: "&cYou don't have a shop!"
+  shop-deleted: "&aYour shop has been deleted!"
+  no-shops: "&cThere are no player shops at the moment!"
+  shop-exp: "Your shop has expired!"
+  no-shop-deleted: "&cYou don't have a shop to delete!"
+  shop-set: "&aYour shop has been set here!"
+  default-shop-msg: "&6Check out my shop!"
+  message-set: "&aShop message set to:"
