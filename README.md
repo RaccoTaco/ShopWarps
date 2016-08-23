@@ -13,6 +13,7 @@ msg-length: How long a message can be before it's cut off
 
 
 PERMS:
+
 shopteleport.shop - Use shop command
 
 shopteleport.delshop - Delete your own shop
